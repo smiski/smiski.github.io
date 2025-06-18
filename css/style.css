@@ -154,20 +154,25 @@
   background: var(--secondary);
 }
 
-.service-item i {
+.service-item .icon-box {
   width: 75px;
   height: 75px;
+  margin: 0 auto 1rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--light);
   color: var(--primary);
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.service-item:hover i {
+.service-item:hover .icon-box {
   background: var(--primary);
   color: var(--light);
+}
+
+.service-item .icon-box i {
+  font-size: 2em;
 }
 
 .portfolio-item .portfolio-btn {
