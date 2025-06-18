@@ -168,7 +168,11 @@
 
 .service-item:hover .icon-box {
   background: var(--primary);
-  color: var(--light);
+}
+
+.service-item:hover .icon-box i {
+  color: var(--light) !important; /* override Devicon .colored */
+  filter: none !important;        /* clear any unwanted filters */
 }
 
 .service-item .icon-box i {
